@@ -402,3 +402,16 @@ label {
   display: flex;
   flex-direction: row;
 }
+
+.h2-clone {
+  font-size: calc(1.325rem + 0.9vw);
+  text-decoration: none;
+  color: rgb(119, 212, 241);
+  transition: all 0.3s;
+}
+
+.h2-clone:hover {
+  transition: all 0.3s;
+  color: rgb(40, 180, 200);
+}
+
