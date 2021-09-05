@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/icon.ico" />
+    <title>Mehrdad Ghannad</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body id="override">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../images/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="hamburger"></div>
+          <div class="hamburger"></div>
+          <div class="hamburger"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" class="n-item" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" class="n-item" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" class="n-item" href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ABOUT SECTION -->
+    <div class="container-fluid" id="about-me">
+      <div id="layer">
+        <h1 class="fade-in">Hey there</h1>
+        <h2 class="fade-in" id="lmao">
+          I'm Mehrdad, a second year computer science student specializing in
+          software engineering.
+        </h2>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects">
+      <h1 class="fade-in">Projects</h1>
+      <div class="d-flex justify-content-center flex-grow-1 flex-wrap">
+        <div class="project flex-fill fade-in" id="dream-journal">
+          <div class="project-name">Dream Journal</div>
+          <p class="technologies">Html, CSS, Javascript</p>
+          <div class="link-container fade-in">
+            <a class="project-link" href="../dream_journal/dream.html"
+              >Live Demo</a
+            >
+            <a
+              class="project-link"
+              href="https://github.com/MehrdadQ/Dream-Journal"
+              >Github</a
+            >
+          </div>
+        </div>
+        <div class="project flex-fill fade-in" id="color-guesser">
+          <div class="project-name">Color Guesser</div>
+          <p class="technologies">HTML, CSS, Javascript</p>
+          <div class="link-container fade-in">
+            <a class="project-link" href="../color_guesser/guesser.html"
+              >Live Demo</a
+            >
+            <a
+              class="project-link"
+              href="https://github.com/MehrdadQ/Color-Guesser"
+              >Github</a
+            >
+          </div>
+        </div>
+        <div class="project flex-fill fade-in" id="balloon-dodge">
+          <div class="project-name">Balloon Dodge</div>
+          <p class="technologies">Python, Pygame</p>
+          <div class="link-container fade-in">
+            <a class="project-link" href="">Live Demo</a>
+            <a class="project-link" href="">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+      <div style="text-align: center">
+        <h1 class="fade-in">Contact Me</h1>
+        <p class="fade-in">Feel free to send me a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            class="fade-in"
+            id="contact-img"
+            src="../images/contact.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column" id="col2">
+          <div>
+            <label class="fade-in">Subject</label>
+            <input
+              class="fade-in"
+              type="text"
+              id="subject"
+              name="name"
+              placeholder="Enter subject..."
+              required
+            />
+
+            <label class="fade-in">Message</label>
+            <textarea
+              class="fade-in"
+              id="msg"
+              name="message"
+              placeholder="Write something..."
+              style="height: 170px"
+            ></textarea>
+
+            <input id="msg-submit" class="fade-in" type="submit" />
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-evenly flex-wrap fade-in" id="socials">
+        <a
+          class="social-link"
+          id="twitter"
+          href="https://www.twitter.com/"
+          title="Twitter"
+        ></a>
+        <a
+          class="social-link"
+          id="linkedin"
+          href="https://www.linkedin.com/in/mehrdadghannad/"
+          title="Linkedin"
+        ></a>
+        <a
+          class="social-link"
+          id="github"
+          href="https://www.github.com/MehrdadQ"
+          title="Github"
+        ></a>
+        <a class="social-link" id="email" href="#" title="Email"></a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="home.js"
+      defer
+    ></script>
+  </body>
+</html>
