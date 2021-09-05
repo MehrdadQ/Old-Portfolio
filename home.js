@@ -41,7 +41,7 @@ if (height < 980) {
 }
 
 function sendEmail() {
-  msg = document.getElementById("subject").value;
+  msg = document.getElementById("msg").value;
   subject = document.getElementById("subject").value;
   to = "mehrdad.ghannad@mail.utoronto.ca";
   console.log("llmao");
