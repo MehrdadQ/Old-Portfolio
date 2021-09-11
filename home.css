@@ -123,7 +123,7 @@ html {
   padding: 5%;
   margin: 50px;
   width: 300px;
-  height: 500px;
+  height: 700px;
   text-align: justify;
   border-radius: 5px;
 }
@@ -377,8 +377,8 @@ label {
 .project:hover .project-link:hover {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
-  border: 2px solid darkcyan;
-  color: darkcyan;
+  border: 2px solid rgb(145, 179, 179);
+  color: rgb(163, 204, 204);
   opacity: 1;
 }
 
